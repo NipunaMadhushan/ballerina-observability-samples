@@ -1,0 +1,8 @@
+[package]
+org = "nipunal"
+name = "observe_exam_portal_service_with_zipkin"
+version = "0.1.0"
+distribution = "2201.8.0-20230908-135700-74a59dff"
+
+[build-options]
+observabilityIncluded = true

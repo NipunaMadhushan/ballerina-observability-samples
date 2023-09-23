@@ -1,0 +1,32 @@
+### Submit results
+POST http://localhost:8090/exam/submit/results
+content-type: application/json
+
+[
+    {
+        "studentId": 11,
+        "name":"Anne Sherly",
+        "age":16,
+        "className":"Class B",
+        "email":"enter_your_email@gmail.com",
+        "mathematics":69,
+        "science":62,
+        "english":81,
+        "history":89,
+        "geography":74,
+        "music":67,
+        "total":442,
+        "average":73.67
+    }
+]
+
+### Get results
+GET http://localhost:8090/exam/results/11
+
+### Send Results to Email
+GET http://localhost:8090/exam/results/11/sendemail
+
+
+
+
+
