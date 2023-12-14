@@ -1,0 +1,11 @@
+natsUrl = "nats://localhost:4222"
+
+[slackConfig]
+authToken = "token123"
+channelName = "follower-notification"
+
+[ballerina.observe]
+tracingEnabled=true
+tracingProvider="newrelic"
+metricsEnabled=true
+metricsReporter="newrelic"

@@ -1,0 +1,5 @@
+[ballerina.observe]
+tracingEnabled=true
+tracingProvider="newrelic"
+metricsEnabled=true
+metricsReporter="newrelic"
