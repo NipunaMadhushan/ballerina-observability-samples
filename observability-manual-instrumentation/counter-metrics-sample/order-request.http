@@ -1,5 +1,5 @@
 ### Make Order for take-away
-GET http://localhost:9091/online-store-service/make\-order\-takeaway
+GET http://localhost:9091/online-store-service/make-order-takeaway
 
 ### Make Order to dine-in
-GET http://localhost:9091/online-store-service/make\-order\-dining
+GET http://localhost:9091/online-store-service/make-order-dining
