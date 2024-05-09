@@ -7,6 +7,10 @@ import ballerina/lang.runtime;
 
 int orderNumber = 0;
 
+
+@display {
+    label: "Online Store Service"
+}
 service /online\-store\-service on new http:Listener(9091) {
     resource function get make\-order\-takeaway(http:Caller caller, http:Request req) {
         // Increment the order number.
