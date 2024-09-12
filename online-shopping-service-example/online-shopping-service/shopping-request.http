@@ -1,0 +1,59 @@
+### Get list of vegetables
+GET http://localhost:8091/online-shopping/vegetables
+
+
+### Get list of fruits
+GET http://localhost:8091/online-shopping/fruits
+
+### Get list of item categories
+GET http://localhost:8091/online-shopping/item-categories
+
+### Add carrot to the cart
+POST http://localhost:8091/online-shopping/vegetables/add-to-cart
+content-type: application/json
+
+{
+    "itemId": 1,
+    "quantity": 2
+}
+
+### Add Potato to the cart
+POST http://localhost:8091/online-shopping/vegetables/add-to-cart
+content-type: application/json
+
+{
+    "itemId": 3,
+    "quantity": 1
+}
+
+### Add Pineapple to the cart
+POST http://localhost:8091/online-shopping/fruits/add-to-cart
+content-type: application/json
+
+{
+    "itemId": 6,
+    "quantity": 1
+}
+
+### Add Tissue to the cart
+POST http://localhost:8091/online-shopping/household/add-to-cart
+content-type: application/json
+
+{
+    "itemId": 2,
+    "quantity": 2
+}
+
+
+### Add Knife to the cart
+POST http://localhost:8091/online-shopping/homeware/add-to-cart
+content-type: application/json
+
+{
+    "itemId": 6,
+    "quantity": 1
+}
+
+### Get the cart
+GET http://localhost:8091/online-shopping/cart
+

@@ -1,0 +1,500 @@
+{
+    "vegetables": [
+        {
+            "id": 1,
+            "name": "Carrot",
+            "price": 1.5,
+            "quantity": 10
+        },
+        {
+            "id": 2,
+            "name": "Tomato",
+            "price": 2.5,
+            "quantity": 10
+        },
+        {
+            "id": 3,
+            "name": "Potato",
+            "price": 1.0,
+            "quantity": 10
+        },
+        {
+            "id": 4,
+            "name": "Onion",
+            "price": 1.5,
+            "quantity": 10
+        },
+        {
+            "id": 5,
+            "name": "Cabbage",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 6,
+            "name": "Broccoli",
+            "price": 2.5,
+            "quantity": 10
+        },
+        {
+            "id": 7,
+            "name": "Spinach",
+            "price": 1.5,
+            "quantity": 10
+        },
+        {
+            "id": 8,
+            "name": "Lettuce",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 9,
+            "name": "Bell Pepper",
+            "price": 2.5,
+            "quantity": 10
+        },
+        {
+            "id": 10,
+            "name": "Cauliflower",
+            "price": 2.0,
+            "quantity": 10
+        }
+
+    ],
+    "fruits": [
+        {
+            "id": 1,
+            "name": "Apple",
+            "price": 2.5,
+            "quantity": 10
+        },
+        {
+            "id": 2,
+            "name": "Banana",
+            "price": 1.5,
+            "quantity": 10
+        },
+        {
+            "id": 3,
+            "name": "Orange",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 4,
+            "name": "Grapes",
+            "price": 3.0,
+            "quantity": 10
+        },
+        {
+            "id": 5,
+            "name": "Strawberry",
+            "price": 4.0,
+            "quantity": 10
+        },
+        {
+            "id": 6,
+            "name": "Pineapple",
+            "price": 3.5,
+            "quantity": 10
+        },
+        {
+            "id": 7,
+            "name": "Watermelon",
+            "price": 5.0,
+            "quantity": 10
+        },
+        {
+            "id": 8,
+            "name": "Mango",
+            "price": 3.0,
+            "quantity": 10
+        },
+        {
+            "id": 9,
+            "name": "Peach",
+            "price": 2.5,
+            "quantity": 10
+        },
+        {
+            "id": 10,
+            "name": "Kiwi",
+            "price": 3.0,
+            "quantity": 10
+        }
+
+    ],
+    "fish": [
+        {
+            "id": 1,
+            "name": "Salmon",
+            "price": 10.0,
+            "quantity": 10
+        },
+        {
+            "id": 2,
+            "name": "Tuna",
+            "price": 8.0,
+            "quantity": 10
+        },
+        {
+            "id": 3,
+            "name": "Cod",
+            "price": 6.0,
+            "quantity": 10
+        },
+        {
+            "id": 4,
+            "name": "Trout",
+            "price": 7.0,
+            "quantity": 10
+        },
+        {
+            "id": 5,
+            "name": "Haddock",
+            "price": 5.0,
+            "quantity": 10
+        },
+        {
+            "id": 6,
+            "name": "Mackerel",
+            "price": 4.0,
+            "quantity": 10
+        },
+        {
+            "id": 7,
+            "name": "Sardine",
+            "price": 3.0,
+            "quantity": 10
+        },
+        {
+            "id": 8,
+            "name": "Anchovy",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 9,
+            "name": "Herring",
+            "price": 3.0,
+            "quantity": 10
+        },
+        {
+            "id": 10,
+            "name": "Pilchard",
+            "price": 2.0,
+            "quantity": 10
+        }
+    ],
+    "beverages": [
+        {
+            "id": 1,
+            "name": "Water",
+            "price": 1.0,
+            "quantity": 10
+        },
+        {
+            "id": 2,
+            "name": "Milk",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 3,
+            "name": "Juice",
+            "price": 3.0,
+            "quantity": 10
+        },
+        {
+            "id": 4,
+            "name": "Soda",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 5,
+            "name": "Tea",
+            "price": 3.0,
+            "quantity": 10
+        },
+        {
+            "id": 6,
+            "name": "Coffee",
+            "price": 4.0,
+            "quantity": 10
+        },
+        {
+            "id": 7,
+            "name": "Beer",
+            "price": 5.0,
+            "quantity": 10
+        },
+        {
+            "id": 8,
+            "name": "Wine",
+            "price": 6.0,
+            "quantity": 10
+        },
+        {
+            "id": 9,
+            "name": "Whiskey",
+            "price": 7.0,
+            "quantity": 10
+        },
+        {
+            "id": 10,
+            "name": "Vodka",
+            "price": 8.0,
+            "quantity": 10
+        }
+    ],
+    "groceries": [
+        {
+            "id": 1,
+            "name": "Rice",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 2,
+            "name": "Pasta",
+            "price": 1.5,
+            "quantity": 10
+        },
+        {
+            "id": 3,
+            "name": "Bread",
+            "price": 1.0,
+            "quantity": 10
+        },
+        {
+            "id": 4,
+            "name": "Egg",
+            "price": 0.5,
+            "quantity": 10
+        },
+        {
+            "id": 5,
+            "name": "Butter",
+            "price": 1.5,
+            "quantity": 10
+        },
+        {
+            "id": 6,
+            "name": "Cheese",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 7,
+            "name": "Yogurt",
+            "price": 1.5,
+            "quantity": 10
+        },
+        {
+            "id": 8,
+            "name": "Milk",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 9,
+            "name": "Cereal",
+            "price": 3.0,
+            "quantity": 10
+        },
+        {
+            "id": 10,
+            "name": "Jam",
+            "price": 2.5,
+            "quantity": 10
+        }
+    ],
+    "homeware": [
+        {
+            "id": 1,
+            "name": "Plate",
+            "price": 1.0,
+            "quantity": 10
+        },
+        {
+            "id": 2,
+            "name": "Bowl",
+            "price": 1.5,
+            "quantity": 10
+        },
+        {
+            "id": 3,
+            "name": "Cup",
+            "price": 1.0,
+            "quantity": 10
+        },
+        {
+            "id": 4,
+            "name": "Fork",
+            "price": 0.5,
+            "quantity": 10
+        },
+        {
+            "id": 5,
+            "name": "Spoon",
+            "price": 0.5,
+            "quantity": 10
+        },
+        {
+            "id": 6,
+            "name": "Knife",
+            "price": 0.5,
+            "quantity": 10
+        },
+        {
+            "id": 7,
+            "name": "Pan",
+            "price": 5.0,
+            "quantity": 10
+        },
+        {
+            "id": 8,
+            "name": "Pot",
+            "price": 6.0,
+            "quantity": 10
+        },
+        {
+            "id": 9,
+            "name": "Spatula",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 10,
+            "name": "Cutting Board",
+            "price": 3.0,
+            "quantity": 10
+        }
+    ],
+    "household": [
+        {
+            "id": 1,
+            "name": "Toilet Paper",
+            "price": 1.0,
+            "quantity": 10
+        },
+        {
+            "id": 2,
+            "name": "Tissue",
+            "price": 1.5,
+            "quantity": 10
+        },
+        {
+            "id": 3,
+            "name": "Soap",
+            "price": 1.0,
+            "quantity": 10
+        },
+        {
+            "id": 4,
+            "name": "Shampoo",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 5,
+            "name": "Conditioner",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 6,
+            "name": "Toothpaste",
+            "price": 1.5,
+            "quantity": 10
+        },
+        {
+            "id": 7,
+            "name": "Toothbrush",
+            "price": 1.0,
+            "quantity": 10
+        },
+        {
+            "id": 8,
+            "name": "Detergent",
+            "price": 3.0,
+            "quantity": 10
+        },
+        {
+            "id": 9,
+            "name": "Bleach",
+            "price": 2.5,
+            "quantity": 10
+        },
+        {
+            "id": 10,
+            "name": "Disinfectant",
+            "price": 2.5,
+            "quantity": 10
+        }
+    ],
+    "pharmacy": [
+        {
+            "id": 1,
+            "name": "Painkiller",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 2,
+            "name": "Cold Medicine",
+            "price": 3.0,
+            "quantity": 10
+        },
+        {
+            "id": 3,
+            "name": "Allergy Medicine",
+            "price": 4.0,
+            "quantity": 10
+        },
+        {
+            "id": 4,
+            "name": "Vitamin",
+            "price": 5.0,
+            "quantity": 10
+        },
+        {
+            "id": 5,
+            "name": "Antacid",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 6,
+            "name": "Laxative",
+            "price": 3.0,
+            "quantity": 10
+        },
+        {
+            "id": 7,
+            "name": "Bandage",
+            "price": 1.0,
+            "quantity": 10
+        },
+        {
+            "id": 8,
+            "name": "Thermometer",
+            "price": 2.0,
+            "quantity": 10
+        },
+        {
+            "id": 9,
+            "name": "Hand Sanitizer",
+            "price": 1.5,
+            "quantity": 10
+        },
+        {
+            "id": 10,
+            "name": "First Aid Kit",
+            "price": 5.0,
+            "quantity": 10
+        }
+    ]
+}
