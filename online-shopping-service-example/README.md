@@ -17,7 +17,7 @@ User can get the available categories using the following resource.
 
 GET http://localhost:8091/online-shopping/item-categories
 
-There are mainly 8 http resources to get the available items in the shop.
+There are 8 http resources to get the available items in the shop.
 
 1. GET http://localhost:8091/online-shopping/vegetables
 2. GET http://localhost:8091/online-shopping/fruits
