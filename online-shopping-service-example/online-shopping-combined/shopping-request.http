@@ -1,0 +1,65 @@
+### Get list of vegetables
+GET http://localhost:8091/online-shopping/vegetables
+
+HTTP/1.1 200  - OK
+content-type: application/json
+connection: close
+server: ballerina
+date: Mon, 3 Aug 2026 10:51:54 +0530
+content-encoding: gzip
+content-length: 189
+###
+GET http://localhost:8091/online-shopping/fruits
+
+HTTP/1.1 200  - OK
+content-type: application/json
+connection: close
+server: ballerina
+date: Mon, 3 Aug 2026 10:51:58 +0530
+content-encoding: gzip
+content-length: 188
+###
+GET http://localhost:8091/online-shopping/item-categories
+###
+POST http://localhost:8091/online-shopping/vegetables/add-to-cart
+content-type: application/json
+
+{
+    "itemId": 1,
+    "quantity": 2
+}
+###
+POST http://localhost:8091/online-shopping/vegetables/add-to-cart
+content-type: application/json
+
+{
+    "itemId": 3,
+    "quantity": 1
+}
+###
+POST http://localhost:8091/online-shopping/fruits/add-to-cart
+content-type: application/json
+
+{
+    "itemId": 6,
+    "quantity": 1
+}
+###
+POST http://localhost:8091/online-shopping/household/add-to-cart
+content-type: application/json
+
+{
+    "itemId": 2,
+    "quantity": 2
+}
+###
+POST http://localhost:8091/online-shopping/homeware/add-to-cart
+content-type: application/json
+
+{
+    "itemId": 6,
+    "quantity": 1
+}
+###
+GET http://localhost:8091/online-shopping/cart
+###

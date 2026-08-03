@@ -1,0 +1,24 @@
+[ballerina.observe]
+tracingEnabled=true
+tracingProvider="jaeger"
+metricsEnabled=true
+metricsReporter="prometheus"
+
+[ballerinax.jaeger]
+agentHostname="localhost"
+agentPort=4317
+# traceLogConsole=true
+
+# [ballerina.otel]
+# tracesEndpoint = "http://localhost:9092/api/traces"
+# tracesProtocol = "http"
+# tracesSampler = "always_on"
+# tracesLogConsole = true
+
+# [ballerina.otel.tracesResourceAttributes]
+# "service.name" = "ballerina-otel-trace-test"
+# "service.version" = "0.1.0"
+
+# [ballerina.otel.tracesExporterHeaders]
+# "api-key" = "key"
+# "other-config-value" = "value"
