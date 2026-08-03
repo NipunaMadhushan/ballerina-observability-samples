@@ -1,9 +1,9 @@
 import ballerina/http;
 import ballerina/io;
+import ballerina/observe as _;
+import ballerina/otel as _;
+import ballerinax/metrics.logs as _;
 import ballerinax/java.jdbc;
-import ballerinax/jaeger as _;
-// import ballerina/otel as _;
-import ballerinax/prometheus as _;
 
 type Item record {|
     readonly int id;
