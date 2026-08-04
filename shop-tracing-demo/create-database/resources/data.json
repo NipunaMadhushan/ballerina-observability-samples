@@ -1,0 +1,14 @@
+{
+    "products": [
+        {"id": 1, "name": "Apple",        "category": "fruits",      "price": 1.50, "stockQuantity": 100},
+        {"id": 2, "name": "Banana",       "category": "fruits",      "price": 0.75, "stockQuantity": 150},
+        {"id": 3, "name": "Carrot",       "category": "vegetables",  "price": 0.90, "stockQuantity": 80},
+        {"id": 4, "name": "Broccoli",     "category": "vegetables",  "price": 1.20, "stockQuantity": 60},
+        {"id": 5, "name": "Salmon",       "category": "fish",        "price": 8.99, "stockQuantity": 30},
+        {"id": 6, "name": "Cola",         "category": "beverages",   "price": 1.99, "stockQuantity": 200},
+        {"id": 7, "name": "Orange Juice", "category": "beverages",   "price": 3.49, "stockQuantity": 75},
+        {"id": 8, "name": "Milk",         "category": "dairy",       "price": 2.49, "stockQuantity": 120},
+        {"id": 9, "name": "Cheddar",      "category": "dairy",       "price": 4.99, "stockQuantity": 50},
+        {"id": 10,"name": "Bread",        "category": "bakery",      "price": 2.99, "stockQuantity": 90}
+    ]
+}

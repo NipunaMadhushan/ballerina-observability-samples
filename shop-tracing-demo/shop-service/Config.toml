@@ -1,0 +1,10 @@
+inventoryServiceUrl = "http://localhost:8091"
+
+[ballerina.observe]
+tracingEnabled=true
+tracingProvider="jaeger"
+
+[ballerinax.jaeger]
+agentHostname="localhost"
+agentPort=4317
+# traceLogConsole=true

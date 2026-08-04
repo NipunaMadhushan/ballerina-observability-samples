@@ -1,0 +1,10 @@
+[package]
+org = "nipunal"
+name = "shop_db_setup"
+version = "0.1.0"
+distribution = "2201.13.3"
+
+[[platform.java17.dependency]]
+artifactId = "h2"
+version = "2.0.206"
+groupId = "com.h2database"

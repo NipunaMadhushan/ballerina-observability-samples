@@ -1,0 +1,24 @@
+### List all products
+GET http://localhost:8090/shop/products
+### Get a single product by id
+GET http://localhost:8090/shop/products/1
+### Get a product that does not exist (expect 404)
+GET http://localhost:8090/shop/products/999
+### Place an order
+POST http://localhost:8090/shop/orders
+Content-Type: application/json
+
+{
+    "productId": 1,
+    "quantity": 2
+}
+### Place an order that exceeds available stock (expect 400)
+POST http://localhost:8090/shop/orders
+Content-Type: application/json
+
+{
+    "productId": 5,
+    "quantity": 9999
+}
+### List all placed orders
+GET http://localhost:8090/shop/orders
