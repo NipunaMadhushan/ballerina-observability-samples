@@ -1,9 +1,10 @@
 import ballerina/http;
 import ballerina/io;
 import ballerina/observe as _;
-import ballerina/otel as _;
+import ballerinax/jaeger as _;
 import ballerinax/metrics.logs as _;
 import ballerinax/java.jdbc;
+import ballerina/log;
 
 type Item record {|
     readonly int id;
@@ -50,10 +51,9 @@ type Cart BoughtItem[];
 final string[] & readonly categories = ["vegetables", "fruits", "fish", "beverages", "groceries", "homeware", "household", "pharmacy"];
 
 const JSON_FILE = "./resources/data.json";
-const DATABASE_FILE = "./resources/shopping_items_data";
 
 Cart cart;
-final jdbc:Client dbClient = check new ("jdbc:h2:" + DATABASE_FILE, "root", "root");
+final jdbc:Client dbClient = check new ("jdbc:h2:mem:shopping_items_data;DB_CLOSE_DELAY=-1", "root", "root");
 
 function initDatabase() returns error? {
     ShoppingItems shoppingItems = check readShoppingDataFromJson(JSON_FILE);
@@ -163,6 +163,10 @@ service /online\-shopping on new http:Listener(8091) {
     }
 
     isolated resource function get vegetables() returns Item[]|error? {
+        http:Client helloWorldClient = check new ("http://localhost:8092");
+        http:Response res = check helloWorldClient->get("/hello/greeting");
+        log:printInfo("Response from Hello World Service: " + check res.getTextPayload());
+
         stream<Item, error?> items = dbClient->query(`SELECT * FROM vegetables`);
         Item[] vegetables = [];
         check from Item item in items
